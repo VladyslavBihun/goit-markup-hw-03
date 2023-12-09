@@ -102,6 +102,8 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+
+  padding: 24px 0;
 }
 
 .header-nav a {
@@ -286,6 +288,10 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.member {
+  padding: 32px 0;
+}
+
 .team-small-title {
   color: #2e2f42;
   text-align: center;
@@ -297,6 +303,8 @@ img {
   display: flex;
   margin-bottom: 8px;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -310,6 +318,7 @@ img {
   display: flex;
   margin-bottom: 32px;
   justify-content: center;
+  text-align: center;
 }
 
 /* Portfolio container */

@@ -65,6 +65,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+
   margin-right: 76px;
 }
 
@@ -72,54 +73,50 @@ img {
   color: #2e2f42;
 }
 
-.header-list {
+.header-menu {
   display: flex;
   gap: 40px;
 }
 
-.header-list-item {
+.header-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
   padding: 24px 0;
 }
 
-.header-list-item:active {
-  text-decoration: underline;
+.header-menu-link:focus,
+.header-menu-link:hover,
+.header-contact:focus,
+.header-contact:hover {
+  color: #404bbf;
 }
 
-.header-list-item:focus,
-.header-list-item:hover {
-  color: var(--OCEAN, #404bbf);
+.menu-studio:active {
+  text-decoration: underline;
 }
 
 .header-adress {
   font-style: normal;
+}
 
+.header-adress-list {
   display: flex;
   gap: 40px;
 }
 
-.header-adress-list {
+.header-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-}
-
-.header-adress-list:focus,
-.header-adress-list:hover {
-  color: var(--OCEAN, #404bbf);
-}
-
-.header-adress ul {
-  display: flex;
-  align-items: flex-end;
-  gap: 40px;
+  display: block;
+  padding: 24px 0;
 }
 
 /* Hero container */

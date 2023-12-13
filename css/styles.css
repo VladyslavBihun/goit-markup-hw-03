@@ -96,7 +96,7 @@ img {
   color: #404bbf;
 }
 
-.menu-studio:active {
+.header-menu-item:nth-child(1):active {
   text-decoration: underline;
 }
 
